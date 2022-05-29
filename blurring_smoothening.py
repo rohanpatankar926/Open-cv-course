@@ -21,7 +21,7 @@ cv.imshow("Median Blur",mb)
 cv.waitKey(0)
 
 #Bilateral Blur
-bl=cv.bilateralFilter(image,5,15,15)
+bl=cv.bilateralFilter(image,7,45,45)
 #applies blurring it detrain the edges in the image
 cv.imshow("Bilateral Blur",bl)
 cv.waitKey(0)
